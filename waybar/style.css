@@ -1,0 +1,66 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: "RobotoMonoNerdFontPropo";
+    font-size: 12px;  
+    font-weight: bold;
+    min-height: 0;
+    border: solid;
+    border-radius: 12px;
+    border-color: #000000;
+}
+
+window#waybar {
+    background: transparent;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+#window,
+#cpu,
+#memory,
+#pulseaudio,
+#battery,
+#workspaces,
+#clock,
+#network {
+    margin-top: 6px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-color: #ff8000;
+    border-width: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ff8000;
+}
+
+#network {
+    margin-left: 6px;
+}
+
+#clock {
+    margin-right: 6px;
+}
+
+#waybar.empty #window {
+    background-color: transparent;
+    border-width: 0px;
+}
+
+#workspaces button{
+    margin-right: -5px;
+    color: #8c4600;
+}
+
+#workspaces button:last-child{
+    margin-right: -5px;
+}
+
+#workspaces button:first-child{
+    margin-left: -5px;
+}
+
+#workspaces button.active{
+    color: #ff8000;
+}

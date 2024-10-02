@@ -1,3 +1,4 @@
+@import url('/home/giapwibu/.cache/wal/colors-waybar.css');
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: "RobotoMonoNerdFontPropo";
@@ -27,12 +28,12 @@ window#waybar {
     margin-bottom: 0px;
     margin-left: 2px;
     margin-right: 2px;
-    border-color: #ff8000;
+    border-color: @color7;
     border-width: 2px;
     padding-left: 10px;
     padding-right: 10px;
     background-color: rgba(0, 0, 0, 0.6);
-    color: #ff8000;
+    color: @color7;
 }
 
 #network {
@@ -50,7 +51,7 @@ window#waybar {
 
 #workspaces button{
     margin-right: -5px;
-    color: #8c4600;
+    color: @color1;
 }
 
 #workspaces button:last-child{
@@ -62,5 +63,5 @@ window#waybar {
 }
 
 #workspaces button.active{
-    color: #ff8000;
+    color: @color7;
 }

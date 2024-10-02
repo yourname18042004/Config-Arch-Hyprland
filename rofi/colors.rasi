@@ -4,10 +4,10 @@
 * {
     background: #db6a0d; 
     foreground: #db6a0d;
-    primary: #ff8000;
+    primary: #be1cd4;
     text: #ffffff;
     bad: #ffffff;
-    accent: #0c6e45;
+    accent: #4a00f0;
 
     background-color: @background;
     power-colors: @background;

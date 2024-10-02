@@ -11,7 +11,7 @@ return {
             require("mason-lspconfig").setup({
                 ensure_installed = { 
                     "lua_ls", 
-                    --"csharp_ls",
+                    "csharp_ls",
                     "jdtls", 
                     "clangd",
 
@@ -65,7 +65,7 @@ return {
             lspconfig["emmet_ls"].setup({
                 capabilities = capabilities,
                 on_attach = on_attach,
-                filetypes = { "html", "jsp", "scss", "css", "js" }
+                filetypes = { "html", "scss", "css", "js" }
             })
 
             vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})

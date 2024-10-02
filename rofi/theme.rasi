@@ -1,4 +1,8 @@
-@import "colors"
+@import "/home/giapwibu/.cache/wal/colors-rofi-dark"
+
+* {
+    text-color: #fff;
+}
 
 #window {
     border: 5px;
@@ -20,7 +24,7 @@
     spacing: 20px;
     border-radius: 10px;
     padding: 2.5ch 3.5ch 2.5ch;
-    background-image: url("/home/giapwibu/wallpaper/anime1.jpg", height);
+    background-image: url("/home/giapwibu/wallpaper/anime2.jpg", height);
     children: [inputbar, message];
 }
 
@@ -35,7 +39,7 @@
     str: " ";
     expand: false;
     margin: 0px 0.5em 0em;
-    background-color: inherit;
+    background-color: @background;
 }
 
 #entry {
@@ -47,7 +51,7 @@
     expand: true;
     padding: inherit;
     border-radius: 20px;
-    background-color: @message-background;
+    background-color: @background;
 }
 
 #textbox {
@@ -153,7 +157,7 @@
     horizontal-align: inherit;
     border-radius: inherit;
     padding: 0px 8px 0px 0px;
-    background-color: @power-colors;
+    background-color: @background;
 }
 
 #button-suspend {
@@ -163,7 +167,7 @@
     horizontal-align: inherit;
     border-radius: inherit;
     padding: 0px 6px 0px 0px;
-    background-color: @power-colors;
+    background-color: @background;
 }
 
 #button-reboot {
@@ -173,7 +177,7 @@
     horizontal-align: inherit;
     border-radius: inherit;
     padding: 0px 7px 0px 0px;
-    background-color: @power-colors;
+    background-color: @background;
 }
 
 #button-shutdown {
@@ -183,5 +187,5 @@
     horizontal-align: inherit;
     border-radius: inherit;
     padding: 0px 7px 0px 0px;
-    background-color: @power-colors;
+    background-color: @background;
 }

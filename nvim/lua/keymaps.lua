@@ -32,7 +32,11 @@ keymap.set('i', '<C-j>', '<down>')
 keymap.set('i', '<C-l>', '<right>')
 
 keymap.set( 'n', "<Tab>", "gt" )
- keymap.set( 'n', "<S-Tab>", "gT" )
+keymap.set( 'n', "<S-Tab>", "gT" )
+
+--move
+keymap.set('n', "<C-S-k>", "kzz")
+keymap.set('n', "<C-S-j>", "jzz")
 --resize
 keymap.set('n', 'rsh', '<C-w><')
 keymap.set('n', 'rsl', '<C-w>>')
